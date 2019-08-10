@@ -1,0 +1,16 @@
+name: qGifts
+version: 1.0.0
+main: me.Browk.qGifts.Main
+description: Gifts for your players.
+softdepend: [HeadDatabase]
+authors: [Browk_]
+
+commands:
+  qgifts:
+    description: Configure plugin.
+    aliases: [gifts]
+
+permissions:
+  qgifts.admin:
+    description: Access to gqifts command.
+    default: op
